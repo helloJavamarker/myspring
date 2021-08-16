@@ -1,15 +1,11 @@
 package com.zhang.service;
 
-import com.spring.Autowired;
-import com.spring.Component;
-
-@Component("userService")
-//@Scope("prototype")
-public class UserService {
-    @Autowired
-    private OrderService orderService;
-
-    public void test() {
-        System.out.println(orderService);
-    }
+/**
+ * @author by mark
+ * @Classname UserInterface
+ * @Description TODO
+ * @Date 2021/8/15 10:12 上午
+ */
+public interface UserService {
+    void test();
 }

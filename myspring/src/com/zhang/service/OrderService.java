@@ -1,7 +1,7 @@
 package com.zhang.service;
 
-import com.spring.Autowired;
-import com.spring.Component;
+import com.spring.bean.Autowired;
+import com.spring.bean.Component;
 
 /**
  * @author by mark
@@ -12,7 +12,7 @@ import com.spring.Component;
 @Component("orderService")
 public class OrderService {
     @Autowired
-    private UserService userService;
+    private UserServiceImpl userService;
     public void test() {
         System.out.println("orderService.userService:" + userService);
     }

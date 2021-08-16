@@ -1,6 +1,6 @@
 package com.zhang;
 
-import com.spring.ComponentScan;
+import com.spring.bean.ComponentScan;
 
 @ComponentScan("com.zhang.service")
 public class AppConfig {

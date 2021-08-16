@@ -1,4 +1,4 @@
-package com.spring;
+package com.spring.bean;
 
 /**
  * @author by mark
