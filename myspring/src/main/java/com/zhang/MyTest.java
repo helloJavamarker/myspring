@@ -1,8 +1,8 @@
 package com.zhang;
 
-import com.spring.bean.MyApplicationContext;
 import com.zhang.service.OrderService;
 import com.zhang.service.UserService;
+import com.zhang.spring.bean.MyApplicationContext;
 
 public class MyTest {
     public static void main(String[] args) {

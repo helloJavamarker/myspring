@@ -1,4 +1,4 @@
-package com.spring.bean;
+package com.zhang.spring.bean;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -7,11 +7,12 @@ import java.lang.annotation.Target;
 
 /**
  * @author by mark
- * @Classname Autowored
+ * @Classname Scope
  * @Description TODO
- * @Date 2021/8/14 12:57 下午
+ * @Date 2021/8/14 10:38 上午
  */
 @Retention(RetentionPolicy.RUNTIME)
-@Target({ElementType.METHOD,ElementType.FIELD})
-public @interface Autowired {
+@Target({ElementType.TYPE, ElementType.METHOD})
+public @interface Scope {
+    String value();
 }

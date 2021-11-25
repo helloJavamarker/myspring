@@ -1,9 +1,9 @@
 package com.zhang.service;
 
-import com.spring.bean.Autowired;
-import com.spring.bean.BeanNameAware;
-import com.spring.bean.Component;
-import com.spring.bean.InitializingBean;
+import com.zhang.spring.bean.Autowired;
+import com.zhang.spring.bean.BeanNameAware;
+import com.zhang.spring.bean.Component;
+import com.zhang.spring.bean.InitializingBean;
 
 @Component("userService")
 //@Scope("prototype")

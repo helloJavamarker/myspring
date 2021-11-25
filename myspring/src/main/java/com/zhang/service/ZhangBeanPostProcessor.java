@@ -1,7 +1,7 @@
 package com.zhang.service;
 
-import com.spring.bean.BeanPostProcessor;
-import com.spring.bean.Component;
+import com.zhang.spring.bean.BeanPostProcessor;
+import com.zhang.spring.bean.Component;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
